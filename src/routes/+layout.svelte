@@ -5,14 +5,12 @@
 	let { children } = $props();
 </script>
 
-
-
 <svelte:head>
 	<link rel="icon" href={favicon} />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap"
-  />
+	<link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap"
+	/>
 </svelte:head>
 
 {@render children?.()}
